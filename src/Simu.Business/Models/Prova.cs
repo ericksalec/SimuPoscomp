@@ -7,7 +7,7 @@ namespace Simu.App.Models
 {
     public class Prova : Entity
     {
-        public Questao Questoes { get; set; }
+        public Questao Questao { get; set; }
         public DateTime Data { get; set; }
 
     }
